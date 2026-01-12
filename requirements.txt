@@ -1,0 +1,51 @@
+# --- COLETA DE DADOS ---
+yfinance              # Dados do Yahoo Finance (Ações, FIIs, Moedas)
+pandas-datareader     # Conecta com diversas fontes de dados econômicos (FRED, World Bank)
+alpha-vantage         # Dados globais e indicadores técnicos (requer chave API)
+beautifulsoup4        # Web Scraping para dados fundamentalistas (Value Investing)
+
+# --- PROCESSAMENTO E ANÁLISE ---
+pandas                # Manipulação de tabelas e séries temporais financeiras
+numpy                 # Cálculos matemáticos e matrizes de risco
+scipy                 # Estatística avançada para otimização de carteiras
+
+# --- ANÁLISE QUANTITATIVA & INDICADORES ---
+pandas-ta             # Médias Móveis, RSI, Bandas de Bollinger e +200 indicadores
+scipy                 # Cálculos estatísticos de volatilidade e distribuições
+
+# --- GESTÃO DE CARTEIRA & ASSET ALLOCATION ---
+PyPortfolioOpt        # Otimização de Portfólio (Fronteira Eficiente de Markowitz)
+Riskfolio-Lib         # Alocação de ativos e construção de portfólios quantitativos
+
+# --- VISUALIZAÇÃO DE DADOS ---
+matplotlib            # Gráficos básicos e científicos
+plotly                # Gráficos interativos e dashboards (essencial para web)
+seaborn               # Gráficos estatísticos elegantes (correlação entre ativos)
+
+# --- INDICADORES TÉCNICOS ---
+TA-Lib                # A biblioteca padrão ouro para análise técnica (RSI, Médias Móveis)
+pandas-ta             # Versão integrada ao Pandas para indicadores técnicos
+
+# --- INTERFACE WEB ---
+streamlit             # Para transformar seus scripts em um Dashboard Web em minutos
+
+# --- GESTÃO DE CARTEIRA & ASSET ALLOCATION ---
+PyPortfolioOpt        # Otimização de Portfólio (Fronteira Eficiente de Markowitz)
+Riskfolio-Lib         # Alocação de ativos e construção de portfólios quantitativos
+
+# --- GESTÃO DE RISCO (RISK MANAGEMENT) ---
+pyfolio               # Análise de performance e métricas de risco (Sharpe, Sortino, Drawdown)
+empyrical             # Cálculo de métricas de risco e retorno para estratégias quant
+
+# --- VALUE INVESTING (FUNDAMENTALISTA) ---
+fundamentalist        # Acesso simplificado a dados de balanços e múltiplos
+python-bcb            # Integração com dados do Banco Central (IPCA, SELIC para cálculo de retorno real)
+
+# --- VISUALIZAÇÃO DE DADOS ---
+plotly                # Gráficos financeiros interativos e profissionais
+seaborn               # Mapas de calor (Heatmaps) para correlação de ativos
+
+# --- AUTOMAÇÃO ---
+schedule              # Agendamento de tarefas (ex: rodar script de fechamento todo dia às 18h)
+python-dotenv         # Proteção de chaves de API e senhas (boas práticas de dev)
+
