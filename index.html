@@ -235,6 +235,21 @@
             text-align: justify;
         }
 
+        /* Novo botão - formulário + terminal */
+        .btn-terminal {
+            display: block;        /* Faz o botão ocupar a largura disponível ou ficar em linha própria */
+            width: fit-content;    /* Garante que o botão não estique até o fim da tela, mantendo o design */
+            margin-bottom: 15px;   /* Cria o espaçamento perfeito entre um botão e outro */
+            padding: 12px 24px;
+            background-color: #002d5d;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+        /* Novo botão - formulário + terminal*/
+
         /* --- Mobile Responsive --- */
         @media (max-width: 768px) {
             .hero-grid { grid-template-columns: 1fr; text-align: center; }
@@ -487,7 +502,8 @@
                     <a href="https://tally.so/r/81LRlz" target="_blank" class="btn-terminal">
                       Diagnóstico de Eficiência e Blindagem
                     </a>
-                    <a href="https://fernando-doc.streamlit.app/" target="_blank" class="btn-terminal">
+                    
+                    <br> <a href="https://fernando-doc.streamlit.app/" target="_blank" class="btn-terminal">
                       Terminal de Inteligência Financeira
                     </a>
                 </div>
@@ -506,6 +522,7 @@
 </body>
 
 </html>
+
 
 
 
